@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="MFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>MFitness - place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">Maratha </span>Martial Arts</div>
+
+          <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#courses">Courses</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              A place for your fitness goals
+            </h1>
+            <p class="description">
+              We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+              TRX And Much More
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom">
+              Join us
+            </button>
+            <button class="btn btn__secondary">Our services</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              About <span class="yellow">Maratha </span>Martial Arts
+            </h2>
+            <p>
+              "Unleash the warrior within!  At Wushu Warriors Hunt Academy, we believe in transforming passion into mastery. Located in the heart of Bhiwandi, our academy is dedicated to providing world-class training in martial arts, with a special focus on the art of Wushu. Whether you're a beginner or an experienced athlete, our skilled trainers are here to guide you every step of the way.
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img
+              src="img/photo1.jpg"
+              alt="about-image-one"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/photo2.jpg"
+              alt="about-image-twwo"
+              width="350"
+              height="233"
+            />
+            <img
+              src="img/about-img-3.jpg"
+              alt="about-image-three"
+              width="420"
+              height="280"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Courses</h2>
+            <p>
+              Led by experienced trainers, our sessions cater to all skill levels, helping you build strength, confidence, and mastery at your own pace. Discover the perfect blend of fitness, focus, and personal growth with our diverse range of courses. Step into your journey today and unlock the best version of yourself!
+            </p>
+          </header>
+
+          <article class="courses-content">
+         
+            
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/wushu.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Whether you’re looking to master powerful strikes, graceful movements, or simply improve your overall well-being, Wushu offers something for everyone. Step into this incredible journey and embrace the warrior spirit within you!
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Wushu</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/yoga.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Each session is an opportunity to reconnect with yourself, release stress, and find harmony in the present moment. Whether you’re a beginner or an experienced practitioner, yoga offers a transformative journey toward physical wellness and mental clarity. Embrace the flow and awaken your inner calm! 
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title"> yoga</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-boxing.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    Combining intense physical training with strategic thinking, boxing hones your endurance, sharpens your reflexes, and builds mental resilience. Each punch thrown is a step toward mastering your skills and pushing your limits.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Boxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <div class="offer-box">
+          <div class="offer" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              "Grace, power, and precision! 🥋✨ Goen shines at the national wushu championship, embodying the true spirit of a warrior.
+            </h2>
+            <p class="margin-bottom">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur exercitationem amet quas repellendus esse natus.
+            </p>
+            <button class="btn btn__primary">YURAJ RAI-TRAINER</button>
+          </div>
+
+          <div class="offer-img"></div>
+        </div>
+      </section>
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn__primary form-flex">Send &nbsp;</button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">Maratha </span>Martial Arts</h2>
+
+          <ul class="contact-data">
+            <li class="location">73R4+4JW, Dhamankar Naka, Samad Nagar, Kaneri, Bhiwandi, Maharashtra 421302, Bhiwandi, Maharashtra 421303</li>
+            <li class="phone">+91 79727 76117</li>
+            <li class="email">yurajrai@gmail.com</li>
+            <li class="social">
+              <img
+                src="./img/logo-whatsapp.svg"
+                alt="whatsapp icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-facebook.svg"
+                alt="facebook icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-instagram.svg"
+                alt="instagram icon"
+                width="35"
+                height="35"
+              />
+
+              <img
+                src="./img/logo-twitter.svg"
+                alt="twitter icon"
+                width="35"
+                height="35"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+      
+       
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
